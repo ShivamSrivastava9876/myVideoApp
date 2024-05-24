@@ -2,9 +2,10 @@
   "name": "my-video-web-app-full-stack",
   "version": "1.0.0",
   "description": "An app for video streaming with all the necessary features built using Next, Node and Express with MongoDB.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "JavaScript",
@@ -14,5 +15,8 @@
     "Js"
   ],
   "author": "Shivam Srivastava",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
