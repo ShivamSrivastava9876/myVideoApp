@@ -12,6 +12,7 @@ class ApiError extends Error {
     this.success = false;
     this.errors = errors;
 
+    // The stack property in JavaScript's Error objects provides a stack trace, which is a string representation of the point in the code at which the error was instantiated.
     if (stack) {
       this.stack = stack;
     } else {
